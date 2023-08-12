@@ -1,0 +1,7 @@
+[user]
+	email = 45497935+farhaan-mukarram@users.noreply.github.com
+	name = Farhaan Mukarram
+[init]
+	defaultBranch = main
+[push]
+	autoSetupRemote = true
