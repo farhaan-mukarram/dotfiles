@@ -41,3 +41,10 @@ sudo apt install fontconfig
 # Refresh the font cache
 fc-cache -fv
 
+# Download and install nvim
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
+sudo rm -rf /opt/nvim
+sudo tar -C /opt -xzf nvim-linux64.tar.gz
+
+# Add nvim to path
+echo 'export PATH="$PATH:/opt/nvim-linux64/bin"' >> ~/.zshrc
