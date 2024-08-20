@@ -4,8 +4,8 @@
 sudo apt install zsh
 chsh -s $(which zsh)
 
-# Download powerlevel 10k
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+# Dowload and install oh-my-posh
+curl -s https://ohmyposh.dev/install.sh | bash -s
 
 # Download plugins for oh-my-zsh
 # zsh-syntax-hightlighting
