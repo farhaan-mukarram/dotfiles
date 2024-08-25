@@ -3,6 +3,7 @@ return {
   opts = {
     filesystem = {
       filtered_items = {
+        -- Show all hidden files
         visible = true,
       },
     },
