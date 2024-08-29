@@ -29,9 +29,9 @@ require("lazy").setup({
     -- Tailwind
     { import = "lazyvim.plugins.extras.lang.tailwind" },
     -- Python
-    { import = "lazyvim.plugins.extras.lang.python" },
+    -- { import = "lazyvim.plugins.extras.lang.python" },
     -- Black formatter (python)
-    { import = "lazyvim.plugins.extras.formatting.black" },
+    -- { import = "lazyvim.plugins.extras.formatting.black" },
     -- JSON
     { import = "lazyvim.plugins.extras.lang.json" },
     -- import/override with your plugins
